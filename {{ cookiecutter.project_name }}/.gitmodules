@@ -2,6 +2,6 @@
    path = addons_pro
    url = git@git.desarrollo.minorisa.net:odoo/addons_pro.git
 
-[submodule "addons_{{project_name}}"]
+[submodule "addons_{{cookiecutter.project_name}}"]
     path = addons_customer
-    url = git@git.desarrollo.minorisa.net:odoo/addons_{{project_name}}.git
+    url = git@git.desarrollo.minorisa.net:odoo/addons_{{cookiecutter.project_name}}.git
