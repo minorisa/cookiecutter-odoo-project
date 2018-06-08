@@ -3,7 +3,7 @@
 PWD=`pwd`
 ENV=${PWD}/env
 export LC_ALL=C
-python3 -m venv $ENV
+virtualenv $ENV
 $ENV/bin/pip install --upgrade pip
 $ENV/bin/pip install -r requirements.txt
 # $ENV/bin/pip install -r OCA-requirements.txt
