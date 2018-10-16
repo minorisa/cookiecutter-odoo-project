@@ -1,7 +1,7 @@
--r  https://raw.githubusercontent.com/odoo/odoo/11.0/requirements.txt
+-r  https://raw.githubusercontent.com/odoo/odoo/12.0/requirements.txt
 phonenumbers
 Pygments
 setuptools-odoo
 odoo-autodiscover
 python-gitlab
-http://nightly.odoo.com/11.0/nightly/src/odoo_11.0.latest.zip
+http://nightly.odoo.com/12.0/nightly/src/odoo_12.0.latest.zip
